@@ -9,6 +9,15 @@
      android:title="@string/category_statusbar_title" >
 
      <Preference
+        android:key="systemui_tuner_statusbar"
+        android:title="@string/statusbar_tuner_title"
+        android:summary="@string/statusbar_tuner_title_summary">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+     </Preference>
+
+     <Preference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
         android:summary="@string/network_traffic_state_summary"
@@ -20,13 +29,6 @@
             android:title="@string/data_disabled_icon_title"
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true"/>
+    </Preference>
             
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="show_fourg_icon"
-            android:title="@string/show_fourg_icon_title"
-            android:summary="@string/show_fourg_icon_summary"
-            android:defaultValue="false"/>
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
