@@ -17,6 +17,15 @@
      android:title="@string/category_statusbar_title" >
 
      <Preference
+        android:key="systemui_tuner_statusbar"
+        android:title="@string/statusbar_tuner_title"
+        android:summary="@string/statusbar_tuner_title_summary">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+     </Preference>
+
+     <Preference
         android:key="network_traffic_state"
         android:icon="@drawable/ic_settings_network_traffic"
         android:title="@string/network_traffic_state_title"
