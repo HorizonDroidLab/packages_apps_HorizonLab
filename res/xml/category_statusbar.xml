@@ -39,6 +39,26 @@
             android:summary="@string/status_bar_logo_summary"
             android:fragment="com.horizon.lab.category.StatusBarLogo" />
 
+    <PreferenceCategory
+        android:title="@string/status_bar_clock_title">
+
+        <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="status_bar_clock"
+            android:title="@string/status_bar_clock_position_title"
+            android:summary="%s"
+            android:dialogTitle="@string/status_bar_clock_position_title"
+            android:entries="@array/status_bar_clock_position_entries"
+            android:entryValues="@array/status_bar_clock_position_values"
+            android:defaultValue="2" />
+
+        <Preference
+            android:key="clock"
+            android:title="@string/status_bar_clock_title"
+            android:summary="@string/status_bar_clock_summary"
+            android:fragment="com.horizon.lab.category.Clock" />
+
+    </PreferenceCategory>
+
     <!-- Status bar battery customizations -->
     <PreferenceCategory
         android:title="@string/status_bar_battery_category_title">
