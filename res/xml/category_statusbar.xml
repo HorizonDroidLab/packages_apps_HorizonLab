@@ -57,6 +57,12 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.horizon.lab.category.Clock" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="statusbar_clock_chip"
+            android:title="@string/statusbar_clock_chip_title"
+            android:summary="@string/statusbar_clock_chip_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <!-- Status bar battery customizations -->
