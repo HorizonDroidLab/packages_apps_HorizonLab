@@ -16,16 +16,22 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_quicksettings_title" >
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
-        android:key="qstile_requires_unlocking"
-        android:title="@string/qstile_requires_unlocking_title"
-        android:summary="@string/qstile_requires_unlocking_summary"
-        android:defaultValue="true"/>
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:title="Brightness Percentage"
+        android:key="BRIGHTNESS_TEXTVIEW"
+        android:summary="show hide brightness percentage text"
+        android:defaultValue="false" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_colored_icons"
         android:title="@string/qs_colored_icons_title"
         android:summary="@string/qs_colored_icons_summary"
         android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="qstile_requires_unlocking"
+        android:title="@string/qstile_requires_unlocking_title"
+        android:summary="@string/qstile_requires_unlocking_summary"
+        android:defaultValue="true"/>
 
 </PreferenceScreen>
