@@ -173,4 +173,6 @@
     <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
     <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
     <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+    <string name="theme_customization_data_title">Data icon style</string>
+    <string name="theme_customization_data_summary">Set custom data icon style</string>
 </resources> 
