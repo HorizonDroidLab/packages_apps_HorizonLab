@@ -35,6 +35,12 @@
 
     </PreferenceCategory>
 
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="media_controls_always_show_time"
+        android:title="@string/media_controls_always_show_time_title"
+        android:summary="@string/media_controls_always_show_time_summary"
+        android:defaultValue="false" />
+
     <!-- Battery styles -->
     <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="qs_battery_style"
