@@ -16,12 +16,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/horizon_dashboard_title" >
 
+    <PreferenceScreen
+        android:key="hzn_animation"
+        android:layout="@layout/hzn_banner"
+        android:selectable="false" />
+
     <!-- Statusbar -->
      <Preference
           android:id="@+id/statusbar"
           android:title="@string/category_statusbar_title"
           android:fragment="com.horizon.lab.category.StatusBar"
-          android:layout="@layout/preference_category_statusbar"
+          settings:layout="@layout/hzn_lab_card_top"
           />
 
     <!-- Quick Settings -->
@@ -29,7 +34,7 @@
           android:id="@+id/quick_settings"
           android:title="@string/category_quicksettings_title"
           android:fragment="com.horizon.lab.category.QuickSettings"
-          android:layout="@layout/preference_category_quicksettings"
+          settings:layout="@layout/hzn_lab_card_mid"
           />
 
     <!-- Theme -->
@@ -37,7 +42,7 @@
           android:id="@+id/theme"
           android:title="@string/category_theme_title"
           android:fragment="com.horizon.lab.category.Theme"
-          android:layout="@layout/preference_category_theme"
+          settings:layout="@layout/hzn_lab_card_bot"
           />
 
     <!-- Misc -->
@@ -45,7 +50,7 @@
           android:id="@+id/misc"
           android:title="@string/category_misc_title"
           android:fragment="com.horizon.lab.category.Misc"
-          android:layout="@layout/preference_category_misc"
+          settings:layout="@layout/hzn_lab_card_mid"
           />
 
 </PreferenceScreen>
