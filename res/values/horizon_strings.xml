@@ -343,4 +343,8 @@
     <string name="media_controls_always_show_time_title">Media show time</string>
     <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
 
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
 </resources>
