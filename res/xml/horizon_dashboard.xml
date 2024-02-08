@@ -21,7 +21,7 @@
           android:id="@+id/statusbar"
           android:title="@string/category_statusbar_title"
           android:fragment="com.horizon.lab.category.StatusBar"
-          settings:layout="@layout/hzn_lab_card_mid"
+          settings:layout="@layout/hzn_lab_card_top"
           />
 
     <!-- Quick Settings -->
@@ -37,7 +37,7 @@
           android:id="@+id/theme"
           android:title="@string/category_theme_title"
           android:fragment="com.horizon.lab.category.Theme"
-          settings:layout="@layout/hzn_lab_card_bot"
+          settings:layout="@layout/hzn_lab_card_mid"
           />
 
     <!-- Misc -->
@@ -53,6 +53,6 @@
           android:id="@+id/about"
           android:title="@string/category_about_title"
           android:fragment="com.horizon.lab.category.AboutHorizon"
-          settings:layout="@layout/hzn_lab_card_top"/>
+          settings:layout="@layout/hzn_lab_card_bot"/>
 
 </PreferenceScreen>

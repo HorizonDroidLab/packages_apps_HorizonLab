@@ -43,7 +43,20 @@
             android:icon="@drawable/ic_github">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/HorizonDroid-13" />
+                android:data="https://github.com/HorizonDroidLab" />
+        </Preference>
+
+    <PreferenceCategory
+        android:key="about_developer"
+        android:title="@string/hz_about_dev" />
+
+        <Preference
+            android:title="@string/hz_about_superxorn"
+            android:summary="@string/hz_about_superxorn_summary"
+            android:icon="@drawable/superxorn">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/superxorn" />
         </Preference>
 
 </PreferenceScreen>
