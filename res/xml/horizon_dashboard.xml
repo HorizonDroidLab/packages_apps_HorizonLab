@@ -21,12 +21,20 @@
         android:layout="@layout/hzn_banner"
         android:selectable="false" />
 
+    <!-- About Team -->
+     <Preference
+          android:id="@+id/about"
+          android:title="@string/category_about_title"
+          android:fragment="com.horizon.lab.category.AboutHorizon"
+          settings:layout="@layout/hzn_lab_card_top"
+          />
+
     <!-- Statusbar -->
      <Preference
           android:id="@+id/statusbar"
           android:title="@string/category_statusbar_title"
           android:fragment="com.horizon.lab.category.StatusBar"
-          settings:layout="@layout/hzn_lab_card_top"
+          settings:layout="@layout/hzn_lab_card_mid"
           />
 
     <!-- Quick Settings -->

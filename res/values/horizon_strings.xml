@@ -108,4 +108,14 @@
     <string name="show_squiggle_animation_title">Show squiggle animation</string>
     <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
 
+    <!-- About HorizonDroid -->
+    <string name="hz_about_title">About HorizonDroid</string>
+    <string name="hz_about_summary">Everything about us.</string>
+    <string name="hz_about_link">Visit and join</string>
+    <string name="hz_telegram_title" translatable="false">Telegram</string>
+    <string name="hz_telegram_summary">Join our community chat</string>
+    <string name="hz_github_title" translatable="false">GitHub</string>
+    <string name="hz_github_summary">Check out our GitHub</string>
+    <string name="hz_about_info_summary">HorizonDroid Base On Aosp and PixelExperience allows users to experience Google latest Pixel updates while integrating useful features from known custom ROMs. We currently support Android 13, with the latest security patches from Google.</string>
+
 </resources> 
