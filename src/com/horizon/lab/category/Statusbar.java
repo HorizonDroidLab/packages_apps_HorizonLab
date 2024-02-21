@@ -40,6 +40,8 @@ import com.android.settings.custom.preference.SystemSettingListPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import com.horizon.lab.utils.TelephonyUtils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -58,11 +60,14 @@ public class Statusbar extends SettingsPreferenceFragment implements Preference.
     private static final String VOLTE_ICON_STYLE = "volte_icon_style";
     private static final String VOWIFI_ICON_STYLE = "vowifi_icon_style";
 
+    private static final String KEY_SHOW_FOURG = "show_fourg_icon";
+
     private SystemSettingListPreference mVolteIconStyle;
     private SystemSettingListPreference mVowifiIconStyle;
     private SwitchPreference mBatteryTextCharging;
     private SystemSettingListPreference mBatteryPercent;
     private SystemSettingListPreference mBatteryStyle;
+    private SwitchPreference mShowFourg;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -101,6 +106,12 @@ public class Statusbar extends SettingsPreferenceFragment implements Preference.
         } else {
             mVolteIconStyle.setEnabled(false);
         }
+
+        mShowFourg = (SwitchPreference) findPreference(KEY_SHOW_FOURG);
+
+        if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+            prefSet.removePreference(mShowFourg);
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -136,6 +147,12 @@ public class Statusbar extends SettingsPreferenceFragment implements Preference.
         return false;
     }
 
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+
+        Settings.System.putIntForUser(resolver,
+                Settings.System.SHOW_FOURG_ICON, 0, UserHandle.USER_CURRENT);
+    }
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.HORIZON;
@@ -154,6 +171,11 @@ public class Statusbar extends SettingsPreferenceFragment implements Preference.
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     final List<String> keys = super.getNonIndexableKeys(context);
+
+                    if (!TelephonyUtils.isVoiceCapable(context)) {
+                        keys.add(KEY_SHOW_FOURG);
+                    }
+
                     return keys;
                 }
             };
