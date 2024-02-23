@@ -304,4 +304,8 @@
     <string name="games_spoof_title">Unlock higher FPS in games</string>
     <string name="games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
 
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+
 </resources>
