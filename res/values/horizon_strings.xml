@@ -299,4 +299,9 @@
     <string name="ambient_edge_light_duration_title">Light duration</string>
     <string name="ambient_edge_light_repeat_count_title">Repeat count</string>
     <string name="ambient_edge_light_width_title">Light width</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="games_spoof_title">Unlock higher FPS in games</string>
+    <string name="games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+
 </resources>

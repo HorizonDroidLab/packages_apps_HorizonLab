@@ -37,6 +37,12 @@
         settings:controller="com.horizon.lab.category.doze.AmbientEdgeLightPreferenceController"
         settings:requiresConfig="@bool/config_show_ambient_edge_light" />
 
+    <com.android.settings.custom.preference.SystemPropertySwitchPreference
+        android:key="persist.sys.pixelprops.games"
+        android:title="@string/games_spoof_title"
+        android:summary="@string/games_spoof_summary"
+        android:defaultValue="false" />   
+
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="window_ignore_secure"
         android:title="@string/ignore_window_secure_title"
