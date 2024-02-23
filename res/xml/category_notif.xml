@@ -17,6 +17,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_notif_title" >
 
+    <Preference
+        android:key="ambient_edge_light"
+        android:title="@string/ambient_edge_light_title"
+        android:summary="@string/ambient_edge_light_summary"
+        android:fragment="com.horizon.lab.category.doze.AmbientEdgeLightSettings"
+        settings:controller="com.horizon.lab.category.doze.AmbientEdgeLightPreferenceController"
+        settings:requiresConfig="@bool/config_show_ambient_edge_light" />
+
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="statusbar_colored_icons"
         android:title="@string/statusbar_colored_icons_title"
