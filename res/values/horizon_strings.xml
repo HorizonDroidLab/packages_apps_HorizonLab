@@ -92,6 +92,8 @@
     <string name="hz_about_hklknz_summary">Poco F1 / Beryllium</string>
     <string name="hz_about_dropto" translatable="false">Dr.Opto</string>
     <string name="hz_about_dropto_summary">Redmi Note 12 5G / Poco x5 5G /Redmi Note 12R | stone</string>
+     <string name="hz_about_aleezt" translatable="false">AleeZT</string>
+    <string name="hz_about_aleezt_summary">Poco F5 Pro / Redmi K60 | mondrian</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_state_title">Network traffic indicator</string>
@@ -125,7 +127,7 @@
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Colored icons</string>
     <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in status bar</string>
-    
+
     <!-- Android P animation style -->
     <string name="pie_animation_style_title">Android P animation style</string>
     <string name="pie_animation_style_summary">Enable Android P \"Default\" animations</string>
@@ -160,7 +162,7 @@
 
     <!-- Statusbar tuner -->
     <string name="statusbar_tuner_title">Statusbar icons</string>
-    <string name="statusbar_tuner_title_summary">Enable or disable many statusbar icons</string>    
+    <string name="statusbar_tuner_title_summary">Enable or disable many statusbar icons</string>
 
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">Font style</string>

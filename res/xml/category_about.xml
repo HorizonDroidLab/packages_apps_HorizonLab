@@ -199,4 +199,14 @@
                 android:data="https://t.me/Dr_Opto" />
         </Preference>
 
+     <Preference
+            android:title="@string/hz_about_aleezt"
+            android:summary="@string/hz_about_aleezt_summary"
+            android:icon="@drawable/aleezt"
+            settings:layout="@layout/hz_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Alee1507" />
+        </Preference>
+
 </PreferenceScreen>
