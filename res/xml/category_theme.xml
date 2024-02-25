@@ -16,8 +16,19 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_theme_title" >
 
+    <!-- Screen Off animation -->
+    <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="screen_off_animation"
+        android:icon="@drawable/ic_television_classic"
+        android:title="@string/screen_off_animation_title"
+        android:dialogTitle="@string/screen_off_animation_title"
+        android:entries="@array/screen_off_animation_entries"
+        android:entryValues="@array/screen_off_animation_values"
+        android:defaultValue="0" />
+
     <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="settings_dashboard_style"
+        android:icon="@drawable/ic_dashboard"
         android:title="@string/settings_dashboard_style_title"
         android:summary="@string/settings_dashboard_style_summary"
         android:entries="@array/settings_dashboard_style_entries"
@@ -26,6 +37,7 @@
 
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="system_black_theme"
+        android:icon="@drawable/ic_black"
         android:title="@string/system_black_theme_title"
         android:summary="@string/system_black_theme_summary"
         android:defaultValue="false" />
@@ -33,6 +45,7 @@
     <!-- Font style -->
     <Preference
         android:key="android.theme.customization.fonts"
+        android:icon="@drawable/ic_font"
         android:title="@string/theme_customization_font_title"
         android:summary="@string/theme_customization_font_summary"
         android:fragment="com.horizon.lab.category.theme.FontsPicker"/>
@@ -40,6 +53,7 @@
     <!-- Signal icon style -->
     <Preference
         android:key="android.theme.customization.signal_icon"
+        android:icon="@drawable/ic_signal"
         android:title="@string/theme_customization_signal_icon_title"
         android:summary="@string/theme_customization_signal_icon_summary"
         android:fragment="com.horizon.lab.category.theme.SignalIcons"/>
@@ -47,6 +61,7 @@
     <!-- Data icon style -->  
     <Preference
         android:key="android.theme.customization.sb_data"
+        android:icon="@drawable/ic_data"
         android:title="@string/theme_customization_data_title"
         android:summary="@string/theme_customization_data_summary"
         android:fragment="com.horizon.lab.category.theme.DataStyles" />
@@ -54,6 +69,7 @@
     <!-- Wifi icon style -->
     <Preference
         android:key="android.theme.customization.wifi_icon"
+        android:icon="@drawable/ic_wifi"
         android:title="@string/theme_customization_wifi_icon_title"
         android:summary="@string/theme_customization_wifi_icon_summary"
         android:fragment="com.horizon.lab.category.theme.WifiIcons"/>
@@ -61,6 +77,7 @@
     <!-- Icon pack -->
     <Preference
         android:key="android.theme.customization.icon_pack"
+        android:icon="@drawable/ic_icon"
         android:title="@string/theme_customization_icon_pack_title"
         android:summary="@string/theme_customization_icon_pack_summary"
         android:fragment="com.horizon.lab.category.theme.StatusbarIcons"/>
@@ -68,6 +85,7 @@
     <!-- Adaptive icon pack -->
     <Preference
         android:key="android.theme.customization.adaptive_icon_shape"
+        android:icon="@drawable/ic_icons"
         android:title="@string/theme_customization_icon_shape_title"
         android:summary="@string/theme_customization_icon_shape_summary"
         android:fragment="com.horizon.lab.category.theme.IconShapes"/>
