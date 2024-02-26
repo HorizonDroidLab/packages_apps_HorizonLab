@@ -15,7 +15,12 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
     android:title="@string/category_lock_title" >
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="lockscreen_illustration"
+        lineage:lottie_rawRes="@raw/lockscreen_illustration" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="lockscreen_enable_power_menu"
