@@ -324,4 +324,8 @@
     <string name="photos_spoof_title">Unlimited Photos storage</string>
     <string name="photos_spoof_summary">Spoof your device as Pixel XL for the Google Photos app only to provide unlimited storage for backup</string>
 
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+
 </resources>
