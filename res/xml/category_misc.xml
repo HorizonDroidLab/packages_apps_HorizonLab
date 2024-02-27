@@ -34,6 +34,13 @@
         android:summary="@string/pie_animation_style_summary"
         android:defaultValue="false" />
 
+    <!-- Netflix -->
+    <com.android.settings.custom.preference.SystemPropertySwitchPreference
+        android:key="persist.sys.pixelprops.netflix"
+        android:title="@string/netflix_spoof_title"
+        android:summary="@string/netflix_spoof_summary"
+        android:defaultValue="false" />
+
     <com.android.settings.custom.preference.SystemPropertySwitchPreference
         android:key="persist.sys.pixelprops.games"
         android:title="@string/games_spoof_title"

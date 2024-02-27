@@ -316,4 +316,8 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
 
+    <!-- Netflix Spoof -->
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+
 </resources>
