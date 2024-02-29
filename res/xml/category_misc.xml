@@ -62,12 +62,18 @@
         android:key="pm_downgrade_allowed"
         android:title="@string/app_downgrade_title"
         android:summary="@string/app_downgrade_summary"
-        android:defaultValue="false"/>   
+        android:defaultValue="false"/>
 
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="window_ignore_secure"
         android:title="@string/ignore_window_secure_title"
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
+
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="hide_ime_space_enable"
+        android:title="@string/navigation_bar_ime_space_title"
+        android:summary="@string/navigation_bar_ime_space_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
