@@ -59,25 +59,23 @@
     <!-- About Develover -->
     <string name="hz_about_dev">Developer</string>
     <string name="hz_about_superxorn" translatable="false">SuperXorn</string>
-    <string name="hz_about_superxorn_summary">Lead Developer Project</string>
-    <string name="hz_about_steve" translatable="false">Steven スティーブン</string>
-    <string name="hz_about_steve_summary">Desain UI/UX Project</string>
+    <string name="hz_about_superxorn_summary">HorizonDroid Founder</string>
     <string name="hz_about_jyr" translatable="false">Jyr</string>
-    <string name="hz_about_jyr_summary">Co Lead Developer Project</string>
-    <string name="hz_about_komaru" translatable="false">Komaru</string>
-    <string name="hz_about_komaru_summary">Manager Project</string>
+    <string name="hz_about_jyr_summary">HorizonDroid Co-founder</string>
     <string name="hz_about_kizziama" translatable="false">Kizziama</string>
-    <string name="hz_about_kizziama_summary">Core Developer Project</string>
-    <string name="hz_about_dblenk" translatable="false">Dblenk</string>
-    <string name="hz_about_dblenk_summary">Core Developer Project</string>
+    <string name="hz_about_kizziama_summary">Lead Core</string>
+    <string name="hz_about_mkzu" translatable="false">Mikazuuu07</string>
+    <string name="hz_about_mkzu_summary">Co-core</string>
+    <string name="hz_about_dblenk" translatable="false">ⓓⓑⓛⓔⓝⓚ</string>
+    <string name="hz_about_dblenk_summary">Core Member</string>
     <string name="hz_about_hefatss" translatable="false">Hefatss</string>
-    <string name="hz_about_hefatss_summary">Core Developer Project | Redmi Note 12 NFC Maintainer</string>
+    <string name="hz_about_hefatss_summary">Core Member | Redmi Note 12 NFC Maintainer</string>
 
     <!-- About Designer -->
     <string name="hz_about_design">Designer</string>
     <string name="hz_about_zamkara" translatable="false">zamkara</string>
     <string name="hz_about_zamkara_summary">Designer</string>
-    <string name="hz_about_binzet" translatable="false">Binzet</string>
+    <string name="hz_about_binzet" translatable="false">binzet</string>
     <string name="hz_about_binzet_summary">Designer</string>
 
     <!-- About Maintainer -->

@@ -61,16 +61,6 @@
         </Preference>
 
         <Preference
-            android:title="@string/hz_about_steve"
-            android:summary="@string/hz_about_steve_summary"
-            android:icon="@drawable/steve"
-            settings:layout="@layout/hz_about">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://t.me/Aftershock990" />
-        </Preference>
-
-        <Preference
             android:title="@string/hz_about_jyr"
             android:summary="@string/hz_about_jyr_summary"
             android:icon="@drawable/jyr"
@@ -91,6 +81,16 @@
         </Preference>
 
         <Preference
+            android:title="@string/hz_about_mkzu"
+            android:summary="@string/hz_about_mkzu_summary"
+            android:icon="@drawable/mkzu"
+            settings:layout="@layout/hz_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Mikazuuu07" />
+        </Preference>
+
+        <Preference
             android:title="@string/hz_about_dblenk"
             android:summary="@string/hz_about_dblenk_summary"
             android:icon="@drawable/dblenk"
@@ -98,16 +98,6 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/dblenk9" />
-        </Preference>
-
-        <Preference
-            android:title="@string/hz_about_komaru"
-            android:summary="@string/hz_about_komaru_summary"
-            android:icon="@drawable/komaru"
-            settings:layout="@layout/hz_about">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://t.me/isaiahscape" />
         </Preference>
 
         <Preference
@@ -186,7 +176,7 @@
             settings:layout="@layout/hz_about">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="t.me/hklknz" />
+                android:data="https://t.me/hklknz" />
         </Preference>
 
         <Preference
