@@ -28,6 +28,12 @@
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="false" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="arcane_idle_manager"
+        android:title="@string/idle_manager_title"
+        android:summary="@string/idle_manager_summary"
+        android:defaultValue="false" />
+
     <com.android.settings.custom.preference.GlobalSettingSwitchPreference
         android:key="pie_animation_style"
         android:title="@string/pie_animation_style_title"

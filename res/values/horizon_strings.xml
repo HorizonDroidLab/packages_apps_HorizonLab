@@ -333,4 +333,8 @@
     <string name="show_squiggle_animation_title">Show squiggle animation</string>
     <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
 
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Kill background processes</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
 </resources>
