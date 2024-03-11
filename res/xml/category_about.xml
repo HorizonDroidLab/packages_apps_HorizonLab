@@ -199,4 +199,14 @@
                 android:data="https://t.me/Alee1507" />
         </Preference>
 
+     <Preference
+            android:title="@string/hz_about_arata"
+            android:summary="@string/hz_about_arata_summary"
+            android:icon="@drawable/arata"
+            settings:layout="@layout/hz_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/HinohArata" />
+        </Preference>
+
 </PreferenceScreen>

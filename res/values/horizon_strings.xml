@@ -90,8 +90,10 @@
     <string name="hz_about_hklknz_summary">Poco F1 / Beryllium</string>
     <string name="hz_about_dropto" translatable="false">Dr.Opto</string>
     <string name="hz_about_dropto_summary">Redmi Note 12 5G / Poco x5 5G /Redmi Note 12R | stone</string>
-     <string name="hz_about_aleezt" translatable="false">AleeZT</string>
+    <string name="hz_about_aleezt" translatable="false">AleeZT</string>
     <string name="hz_about_aleezt_summary">Poco F5 Pro / Redmi K60 | mondrian</string>
+    <string name="hz_about_arata" translatable="false">HinohArata</string>
+    <string name="hz_about_arata_summary">Poco X3 NFC / Surya</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_state_title">Network traffic indicator</string>
