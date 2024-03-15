@@ -47,6 +47,18 @@
         android:summary="@string/system_black_theme_summary"
         android:defaultValue="false" />
 
+    <PreferenceCategory
+            android:title="@string/monet_category">
+
+            <!-- Monet settings -->
+            <Preference
+                android:key="monet_settings"
+                android:title="@string/monet_settings_title"
+                android:summary="@string/monet_settings_summary"
+                android:fragment="com.horizon.lab.category.theme.Monet" />
+
+        </PreferenceCategory>
+
     <!-- Font style -->
     <Preference
         android:key="android.theme.customization.fonts"
