@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Project-Awaken
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <string name="ok">Хорошо</string>
+    <string name="default_string">По умолчанию</string>
+    <string name="add">Добавить</string>
+    <string name="enabled">Включено</string>
+    <string name="choose_app">Выбрать приложение</string>
+    <string name="help">Помощь</string>
+    <string name="reset_message">Сбросить все настройки к значениям по умолчанию?</string>
+    <string name="attention">Внимание</string>
+    <string name="reset">Сброс</string>
+
+    <!-- HorizonLab -->
+    <string name="horizon_dashboard_title">HorizonLabs</string>
+    <string name="build_tweaks_summary_title">Станьте Горизонтами!</string>
+
+    <!-- Category: Statusbar -->
+    <string name="category_statusbar_title">Строка состояния</string>
+
+    <!-- Category: QuickSettings-->
+    <string name="category_quicksettings_title">Быстрые настройки</string>
+
+    <!-- Category: Misc-->
+    <string name="category_misc_title">Прочее</string>
+
+    <!-- Category: Theme-->
+    <string name="category_theme_title">Темы</string>
+
+    <!-- Category: LockScreen-->
+    <string name="category_lock_title">Экран блокировки</string>
+
+    <!-- Category: Notifications-->
+    <string name="category_notif_title">Уведомления</string>
+
+    <!-- About HorizonDroid -->
+    <string name="hz_about_title">О HorizonDroid</string>
+    <string name="hz_about_summary">Все про нас.</string>
+    <string name="hz_about_link">Посетите и присоединяйтесь</string>
+    <string name="hz_telegram_summary">Присоединяйтесь к чату нашего сообщества</string>
+    <string name="hz_github_summary">Загляните на наш GitHub</string>
+    <string name="hz_about_info_summary">HorizonDroid - это пользовательский ROM на базе PixelOS, созданный для того, чтобы предоставить пользователям более персонализированный и многофункциональный опыт работы с Android. Он содержит минимальные, простые функции и настройки, которые вы можете использовать.</string>
+
+    <!-- About Develover -->
+    <string name="hz_about_dev">Разработчик</string>
+    <string name="hz_about_superxorn_summary">Основатель HorizonDroid</string>
+    <string name="hz_about_jyr_summary">Сооснователь HorizonDroid</string>
+    <string name="hz_about_kizziama_summary">Ведущее ядро</string>
+    <string name="hz_about_mkzu_summary">Дополнительное ядро</string>
+    <string name="hz_about_dblenk_summary">Основной участник</string>
+    <string name="hz_about_hefatss_summary">Основной участник | Сопровождающий Redmi Note 12 NFC</string>
+
+    <!-- About Designer -->
+    <string name="hz_about_design">Дизайнер</string>
+    <string name="hz_about_zamkara_summary">Дизайнер</string>
+    <string name="hz_about_binzet_summary">Дизайнер</string>
+
+    <!-- About Maintainer -->
+    <string name="hz_maintainer_team">Сопровождающие</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_state_title">Включить Индикатор сетевого трафика</string>
+    <string name="network_traffic_state_summary">Включение или отключение индикатора скорости сети в строке состояния</string>
+    <string name="network_traffic_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_master_switch_title">Использовать индикатор сетевого трафика</string>
+    <string name="network_options_title">Параметры</string>
+    <string name="network_traffic_autohide_title">Скрыть индикатор сетевого трафика, если он неактивен</string>
+    <string name="network_traffic_autohide_summary">Скрывать, когда показатель сетевого трафика ниже 1 КБ/с</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить расширенный перезапуск</string>
+    <string name="global_actions_advanced_reboot_summary">Отображение опций восстановления и загрузчика в меню питания</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Использовать черную тему</string>
+    <string name="system_black_theme_summary">Принудительное использование черного цвета фона</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="ignore_window_secure_summary">Это снимает ограничения на скриншоты и записи экрана для всех приложений. Обычно специальные приложения заменяются черными областями в записях. Это может быть удобно в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого параметра может потребоваться перезапустить приложения, чтобы изменения вступили в силу.</string>
+
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Защищенные QS плитки</string>
+    <string name="qstile_requires_unlocking_summary">Требуется разблокировка, чтобы использовать чувствительные плитки QS</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Меню питания</string>
+    <string name="lockscreen_enable_power_menu_summary">Разрешите доступ к меню питания на экранах блокировки</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Цветные иконки</string>
+    <string name="statusbar_colored_icons_summary">Использовать соответствующие значки приложений для значков уведомлений в строке состояния</string>
+
+    <!-- Android P animation style -->
+    <string name="pie_animation_style_title">Стиль анимации Android P</string>
+    <string name="pie_animation_style_summary">Включить анимацию Android P \"По умолчанию\"</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Показывать значок отключения данных</string>
+    <string name="data_disabled_icon_summary">Отображение знака креста рядом с сигнальной полосой, когда данные отключены</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Иконка 4G</string>
+    <string name="show_fourg_icon_summary">Отображать значок 4G в значке сигнала вместо LTE</string>
+
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Обложка</string>
+    <string name="keygaurd_media_art_title">Отображение обложки медиа</string>
+    <string name="keygaurd_media_art_summary">Показывайте обложку альбома текущего воспроизводимого медиа на экране блокировки</string>
+    <string name="lockscreen_media_blur_title">Уровень размытия обложки</string>
+
+    <!-- Colored QS notification icons -->
+    <string name="qs_colored_icons_title">Цветные значки уведомлений QS</string>
+    <string name="qs_colored_icons_summary">Показывать цветные значки приложений вместо монохромных</string>
+
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Стили настроек</string>
+    <string name="settings_dashboard_style_summary">Изменение пользовательского интерфейса настроек </string>
+    <string name="settings_dashboard_style_1">Стиль AOSP</string>
+    <string name="settings_dashboard_style_2">Стиль Horizon</string>
+
+     <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Показывать значок типа Wi-Fi </string>
+    <string name="show_wifi_standard_icon_summary">Показывать тип Wi-Fi в индикаторе сигнала Wi-Fi </string>
+
+    <!-- Statusbar tuner -->
+    <string name="statusbar_tuner_title">Иконки строки состояния  </string>
+    <string name="statusbar_tuner_title_summary">Включение или отключение многих значков в строке состояния </string>
+
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <string name="theme_customization_font_summary">Выберите системный шрифт</string>
+    <string name="theme_customization_icon_pack_title">Набор значков</string>
+    <string name="theme_customization_icon_pack_summary">Выберите пользовательский набор значков</string>
+    <string name="theme_customization_icon_shape_title">Форма значков</string>
+    <string name="theme_customization_icon_shape_summary">Выберите форму значков</string>
+    <string name="theme_customization_signal_icon_title">Стиль значка сети</string>
+    <string name="theme_customization_signal_icon_summary">Выберите пользовательский значок сети</string>
+    <string name="theme_customization_wifi_icon_title">Стиль значка WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Выберите пользовательский значок wifi</string>
+    <string name="theme_customization_data_title">Стиль значка мобильных данных</string>
+    <string name="theme_customization_data_summary">Выберите пользовательский значок мобильных данных</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_category_title">Настройки батареи</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портрет</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Горизонтальный значок (справа)</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок (слева)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Горизонтальный стиль A (вправо)</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Горизонтальный стиль A (влево)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Горизонтальный стиль B (вправо)</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Горизонтальный стиль B (влево)</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Вертикальный Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Горизонтальный Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Вертикальный IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Горизонтальный Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Горизонтальная Капсула</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Горизонтальный iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Горизонтальный iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Горизонтальное Оригами</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (Заполняющийся)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрыт</string>
+    <string name="status_bar_battery_percent_title">Процент батареи</string>
+    <string name="status_bar_battery_percent_hidden">Скрыт</string>
+    <string name="status_bar_battery_percent_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percent_text_next_right">Рядом со значком (справа)</string>
+    <string name="status_bar_battery_percent_text_next_left">Рядом со значком (слева)</string>
+    <string name="status_bar_battery_text_charging_title">Проценты батареи при зарядке</string>
+    <string name="status_bar_battery_text_charging_summary">Всегда показывать проценты батареи при зарядке</string>
+
+    <!-- QS battery -->
+    <string name="qs_use_status_bar_battery_style">Как в строке состояния</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_style_title">Выберите значок VoLTE/HD</string>
+    <string name="volte_icon_off">Выкл</string>
+    <string name="volte_icon_dynamic">Динамические иконки VOLTE</string>
+    <string name="volte_icon_vo">Vo</string>
+    <string name="volte_icon_volte">VoLTE</string>
+    <string name="volte_icon_oos">VoLTE OOS</string>
+    <string name="volte_icon_hd">HD</string>
+    <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_emui">EMUI</string>
+    <string name="volte_icon_margaritov">HD Заполненная</string>
+    <string name="volte_icon_margaritov2">Margaritov VoLTE</string>
+    <string name="volte_icon_vivo">Vivo</string>
+    <string name="volte_icon_aris">Aris</string>
+    <string name="volte_icon_beast">Aww</string>
+    <string name="volte_icon_ios">Ios</string>
+    <string name="volte_icon_lr">Livenge</string>
+    <string name="volte_icon_realme">Realme</string>
+    <string name="volte_icon_typeA">Mild</string>
+    <string name="volte_icon_typeB">Filth</string>
+    <string name="volte_icon_typeC">Mue</string>
+    <string name="volte_icon_typeD">Sus</string>
+    <string name="volte_icon_typeE">Acherus</string>
+    <string name="volte_icon_vcircle">Circle</string>
+    <string name="volte_icon_vimeo">Vimeo</string>
+    <string name="volte_icon_volit">Volit</string>
+    <string name="volte_icon_zirco">Ziroc</string>
+
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Иконка VoWiFi</string>
+    <string name="vowifi_icon_summary">Отображать иконку VoWiFi если доступно</string>
+    <string name="vowifi_icon_off">Выкл</string>
+    <string name="vowifi_icon_dynamic">Динамический VoWiFi</string>
+    <string name="vowifi_icon_asus">Asus VoWiFi</string>
+    <string name="vowifi_icon_oneplus">OnePlus VoWiFi</string>
+    <string name="vowifi_icon_moto">Moto VoWiFi</string>
+    <string name="vowifi_icon_emui">EMUI</string>
+
+    <!-- Custom logo -->
+    <string name="status_bar_logo_title">Логотип в строке состояния</string>
+    <string name="status_bar_logo_summary">Включите для отображения логотипа в строке состояния</string>
+    <string name="status_bar_logo_position_title">Расположение</string>
+    <string name="status_bar_logo_style_title">Стиль</string>
+    <string name="status_bar_logo_left">Слева</string>
+    <string name="status_bar_logo_right">Справа</string>
+    <string name="status_bar_logo_style_horizondroid">HorizonDroid</string>
+    <string name="status_bar_logo_style_amogus">Amogus</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_airjordan">Air Jordan</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Мстители</string>
+    <string name="status_bar_logo_style_batman">БэтМен</string>
+    <string name="status_bar_logo_style_batman_tdk">БэтМен Темный рыцарь</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_fire">Огонь</string>
+    <string name="status_bar_logo_style_kopigadjah">Kopi Gadjah</string>
+    <string name="status_bar_logo_style_meta">Meta</string>
+    <string name="status_bar_logo_style_mtv">MTV</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pac_man">Pac-Man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spider">Паук</string>
+    <string name="status_bar_logo_style_superman">Супермен</string>
+    <string name="status_bar_logo_style_theflash">The Flash</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">XBOX</string>
+
+
+    <!-- Ambient edge lighting -->
+    <string name="ambient_edge_light_action_title">Свечение по краям экрана на AoD</string>
+    <string name="ambient_edge_light_title">Свечение по бокам экрана</string>
+    <string name="ambient_edge_light_enable_title">Включить подсветку краёв экрана</string>
+    <string name="ambient_edge_light_summary">Подсвечивать края экрана при получении уведомления</string>
+    <string name="ambient_edge_light_color_mode_category_title">Цвет</string>
+    <string name="ambient_edge_light_color_mode_auto">Автоматически</string>
+    <string name="ambient_edge_light_color_mode_app">Цвет приложения</string>
+    <string name="ambient_edge_light_color_mode_manual">Свой</string>
+    <string name="ambient_edge_light_color_mode_auto_summary">Использовать системный акцентный цвет</string>
+    <string name="ambient_edge_light_color_mode_app_summary">Использовать цвет иконки приложения</string>
+    <string name="ambient_edge_light_color_mode_manual_summary">Использовать пользовательский цвет</string>
+    <string name="ambient_edge_light_advanced_category_title">Дополнительно</string>
+    <string name="ambient_edge_light_duration_title">Длительность свечения</string>
+    <string name="ambient_edge_light_repeat_count_title">Количество повторов</string>
+    <string name="ambient_edge_light_width_title">Ширина свечения</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="games_spoof_title">Разблокировка высокого FPS в играх</string>
+    <string name="games_spoof_summary">Подмена вашего устройства на другую модель для определенных игр, чтобы разблокировать более высокий FPS</string>
+
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Маскировка шифрования</string>
+    <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на «Зашифровано»</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_default">По умолчанию</string>
+    <string name="screen_off_animation_crt">ЭЛТ</string>
+    <string name="screen_off_animation_scale">Масштабирование</string>
+
+    <!-- Netflix Spoof -->
+    <string name="netflix_spoof_title">Маскировка для Netflix</string>
+    <string name="netflix_spoof_summary">Подмена вашего устройства на Pixel 8 Pro для использования Netflix</string>
+
+    <!-- Unlimited Photos storage -->
+    <string name="photos_spoof_title">Безлимитное «Google Фото»</string>
+    <string name="photos_spoof_summary">Подделайте свое устройство как Pixel XL для приложения Google Photos, чтобы обеспечить неограниченное хранилище для резервных копий.</string>
+
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Разрешить понижение версии приложения</string>
+    <string name="app_downgrade_summary">Разрешение на понижение версии приложений. Может привести к сбоям и повреждению данных.</string>
+
+    <!-- Quicksettings media category -->
+    <string name="media_category">Проигрыватель</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Показывать анимацию тильды</string>
+    <string name="show_squiggle_animation_summary">Показывать анимацию тильды на медиапанели\nПосле изменения нужно переключить музыку, поставить ее на паузу или передвинуть индикатор выполнения, чтобы применить</string>
+
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Убить фоновые процессы</string>
+    <string name="idle_manager_summary">Остановите все несущественные фоновые процессы, когда устройство бездействует</string>
+
+    <!-- Media player settings -->
+    <string name="media_controls_always_show_time_title">Время показа медиа</string>
+    <string name="media_controls_always_show_time_summary">Всегда показывать прошедшее и общее время в медиаплеере</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Счётчик уведомлений</string>
+    <string name="status_bar_notif_count_summary">Отображать количество  уведомлений в правом нижнем углу значка уведомлений в строке состояния</string>
+
+   <!-- reTicker -->
+   <string name="reticker_title">reTicker\nНеобходимо перезапустить SystemUI</string>
+   <string name="reticker_summary">Замените свои уведомления на обновленную версию бегущей строки. \nМеньше и менее навязчиво, чем стандартные уведомления</string>
+   <string name="reticker_colored_title">Использовать цветной фон приложения</string>
+   <string name="reticker_colored_summary">Заменить цвет фона reTicker на основной цвет приложения уведомлений</string>
+
+    <!-- Monet Customization-->
+    <string name="monet_category">Настройки Monet</string>
+    <string name="monet_settings_title">Настройки темы</string>
+    <string name="monet_settings_summary">Несколько дополнительных настроек для настройки темы</string>
+    <string name="monet_engine_custom_color_title">Цвет акцента</string>
+    <string name="monet_engine_custom_color_summary">Выберите цвет для акцента</string>
+    <string name="monet_engine_custom_bgcolor_title">Цвет фона</string>
+    <string name="monet_engine_custom_bgcolor_summary">Выберите цвет для фона</string>
+    <string name="monet_engine_color_override_title">Пользовательский цвет</string>
+    <string name="monet_engine_luminance_factor_title">Яркость</string>
+    <string name="monet_engine_luminance_factor_summary">Более высокие значения дают более яркие цвета</string>
+    <string name="monet_engine_chroma_factor_title">Хрома-фактор</string>
+    <string name="monet_engine_chroma_factor_summary">Более высокие значения дают более насыщенные цвета</string>
+    <string name="monet_engine_tint_background_title">Оттеночный фон</string>
+    <string name="monet_engine_tint_background_summary">Сделать так, чтобы выбор яркости и цветности также влиял на цвета фона</string>
+
+</resources>
