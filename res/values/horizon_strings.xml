@@ -94,6 +94,8 @@
     <string name="hz_about_aleezt_summary">Poco F5 Pro / Redmi K60 | mondrian</string>
     <string name="hz_about_arata" translatable="false">HinohArata</string>
     <string name="hz_about_arata_summary">Poco X3 NFC / Surya</string>
+    <string name="hz_about_akshay" translatable="false">Akshay</string>
+    <string name="hz_about_akshay_summary">Xiaomi Mi 11x Pro / Haydn</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_state_title">Network traffic indicator</string>
