@@ -209,4 +209,14 @@
                 android:data="https://t.me/HinohArata" />
         </Preference>
 
+        <Preference
+            android:title="@string/hz_about_akshay"
+            android:summary="@string/hz_about_akshay_summary"
+            android:icon="@drawable/akshay"
+            settings:layout="@layout/hz_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/XiaoAkay" />
+        </Preference>
+
 </PreferenceScreen>
