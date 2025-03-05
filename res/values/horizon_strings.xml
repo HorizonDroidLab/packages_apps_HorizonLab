@@ -33,4 +33,19 @@
     <string name="settings_dashboard_style_summary">Change the dashboard settings UI</string>
     <string name="settings_dashboard_style_1">AOSP Style</string>
     <string name="settings_dashboard_style_2">Horizon Style</string>
+
+    <!-- About HorizonDroid -->
+    <string name="hz_about_title">About HorizonDroid</string>
+    <string name="hz_about_summary">Everything about us.</string>
+    <string name="hz_about_link">Visit and join</string>
+    <string name="hz_telegram_title" translatable="false">Telegram</string>
+    <string name="hz_telegram_summary">Join our community chat</string>
+    <string name="hz_github_title" translatable="false">GitHub</string>
+    <string name="hz_github_summary">Check out our GitHub</string>
+    <string name="hz_about_info_summary">HorizonDroid is a Custoom ROM with minimal usefull features.</string>
+
+    <!-- About Develover -->
+    <string name="hz_about_dev">Developer</string>
+    <string name="hz_about_superxorn" translatable="false">SuperXorn</string>
+    <string name="hz_about_superxorn_summary">HorizonDroid Founder</string>
 </resources> 
