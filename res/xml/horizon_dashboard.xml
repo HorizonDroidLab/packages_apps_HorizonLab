@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024-2025 HorizonDroid
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    android:title="@string/horizon_dashboard_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    
+    <!-- Horizon Header -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:clickable="true"
+        android:layout="@layout/hzn_labs_header"
+        android:key="hzn_header" />
+
+    <PreferenceCategory
+        android:title="Settings Features"
+        settings:layout="@layout/hzn_labs_card_category">
+        
+        <!-- Themes -->
+        <Preference
+            android:icon="@drawable/ic_hzn_themes"
+            android:title="Themes"
+            android:summary="Customize the system themes"
+            android:fragment="com.horizon.lab.category.Theme"
+            settings:layout="@layout/hznlabs_card_left_top" />
+            
+        <!-- Notifications -->
+        <Preference
+            android:icon="@drawable/ic_hzn_notifications"
+            android:title="Notifications"
+            android:summary="Change the notifications area"
+            android:fragment="com.horizon.lab.category.Notif"
+            settings:layout="@layout/hznlabs_card_right_top" />
+            
+        <!-- Lock Screen -->
+        <Preference
+            android:icon="@drawable/ic_hzn_lockscreen"
+            android:title="Lock Screen"
+            android:summary="Lockscreen extra feature"
+            android:fragment="com.horizon.lab.category.Lock"
+            settings:layout="@layout/hznlabs_card_left_bot" />
+            
+        <!-- Miscellaneous -->
+        <Preference
+            android:icon="@drawable/ic_hzn_miscellaneous"
+            android:title="Miscellaneous"
+            android:summary="Some more extra stuff"
+            android:fragment="com.horizon.lab.category.Misc"
+            settings:layout="@layout/hznlabs_card_right_bot" />
+    </PreferenceCategory>
+</PreferenceScreen>
