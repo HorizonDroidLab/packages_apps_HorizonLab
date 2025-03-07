@@ -135,5 +135,9 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
 
+    <!-- Ongoing progress bar chip in statusbar --> 
+    <string name="ongoing_action_chip_title">Ongoing progress bar chip</string>
+    <string name="ongoing_action_chip_summary">Show progress bar chip in status bar which features ongoing action progress from a notification</string>
+
 </resources> 
   

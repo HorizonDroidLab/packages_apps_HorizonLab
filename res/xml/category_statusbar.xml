@@ -48,9 +48,15 @@
              android:defaultValue="false" />
 
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="statusbar_colored_icons"
-        android:title="@string/statusbar_colored_icons_title"
-        android:summary="@string/statusbar_colored_icons_summary"
-        android:defaultValue="false" />
+             android:key="statusbar_colored_icons"
+             android:title="@string/statusbar_colored_icons_title"
+             android:summary="@string/statusbar_colored_icons_summary"
+             android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+             android:key="ongoing_action_chip"
+             android:title="@string/ongoing_action_chip_title"
+             android:summary="@string/ongoing_action_chip_summary"
+             android:defaultValue="true" />
 
 </PreferenceScreen>
