@@ -23,4 +23,10 @@
         android:fragment="com.horizon.lab.category.NetworkTrafficSettings"
         android:defaultValue="false" />
 
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="wifi_standard_icon"
+            android:title="@string/show_wifi_standard_icon_title"
+            android:summary="@string/show_wifi_standard_icon_summary"
+            android:defaultValue="true"/>
+
 </PreferenceScreen>
