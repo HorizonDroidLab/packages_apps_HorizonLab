@@ -16,4 +16,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_quicksettings_title" >
 
+   <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="media_controls_always_show_time"
+        android:title="@string/media_controls_always_show_time_title"
+        android:summary="@string/media_controls_always_show_time_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
