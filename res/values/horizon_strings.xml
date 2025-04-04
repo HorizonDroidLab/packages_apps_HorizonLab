@@ -122,11 +122,11 @@
     <string name="hz_telegram_summary">Join our community chat</string>
     <string name="hz_github_title" translatable="false">GitHub</string>
     <string name="hz_github_summary">Check out our GitHub</string>
-    <string name="hz_about_info_summary">HorizonDroid Base On Aosp and PixelExperience allows users to experience Google latest Pixel updates while integrating useful features from known custom ROMs. We currently support Android 13, with the latest security patches from Google.</string>
+    <string name="hz_about_info_summary">HorizonDroid Base On Aosp and PixelOS allows users to experience Google latest Pixel updates while integrating useful features from known custom ROMs. We currently support Android 15, with the latest security patches from Google.</string>
 
     <!-- About Develover -->
     <string name="hz_about_dev">Developer</string>
-    <string name="hz_about_superxorn" translatable="false">SuperXorn</string>
+    <string name="hz_about_superxorn" translatable="false">supexorn</string>
     <string name="hz_about_superxorn_summary">HorizonDroid Founder</string>
 
    <!-- Custom settings dashboard style -->
