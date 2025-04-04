@@ -40,6 +40,12 @@
     <!-- Category: Theme-->
     <string name="category_theme_title">Themes</string>
 
+    <!-- Category: About Horizon-->
+    <string name="category_about_title">About Horizon</string>
+
+    <!-- Sub category -->
+    <string name="general_category">General</string>
+
     <!-- Network traffic -->
     <string name="network_traffic_state_title">Network traffic indicator</string>
     <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
