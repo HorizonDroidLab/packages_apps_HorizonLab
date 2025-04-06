@@ -26,6 +26,13 @@
         settings:controller="com.android.settings.applications.GameSpaceController">
     </Preference>
 
+   <Preference
+        android:key="hide_applist_setting"
+        android:title="@string/hide_applist_title"
+        android:summary="@string/hide_applist_summary"
+        android:fragment="com.custom.settings.fragments.HideAppListSettings">
+    </Preference>
+
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="advanced_reboot"
         android:title="@string/global_actions_advanced_reboot_title"
