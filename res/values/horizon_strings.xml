@@ -145,5 +145,11 @@
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
 
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
+
 </resources> 
   
