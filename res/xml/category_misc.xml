@@ -17,7 +17,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_misc_title" >
 
-   <!-- Gaming mode -->
+   <!-- Gaming Space -->
     <Preference
         android:key="game_settings"
         android:title="@string/game_space_title"
@@ -32,6 +32,12 @@
         android:summary="@string/hide_applist_summary"
         android:fragment="com.custom.settings.fragments.HideAppListSettings">
     </Preference>
+
+    <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/app_downgrade_title"
+        android:summary="@string/app_downgrade_summary"
+        android:defaultValue="false"/>  
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="advanced_reboot"

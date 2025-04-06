@@ -135,9 +135,9 @@
     <string name="settings_dashboard_style_1">AOSP Style</string>
     <string name="settings_dashboard_style_2">Horizon Style</string>
 
-    <!-- Gaming space -->
-    <string name="gaming_space_title">Game space</string>
-    <string name="gaming_space_summary">Extra features for immersive gaming experience</string>
+    <!-- Game space -->
+    <string name="game_space_title">Game space</string>
+    <string name="game_space_summary">Extra features for immersive gaming experience</string>
 
     <!-- Hide applist -->
     <string name="hide_applist_title">Hide applist</string>
