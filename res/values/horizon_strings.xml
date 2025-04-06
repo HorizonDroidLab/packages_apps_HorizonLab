@@ -135,5 +135,9 @@
     <string name="settings_dashboard_style_1">AOSP Style</string>
     <string name="settings_dashboard_style_2">Horizon Style</string>
 
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Game space</string>
+    <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
+
 </resources> 
   
