@@ -129,11 +129,4 @@
     <string name="hz_about_superxorn" translatable="false">supexorn</string>
     <string name="hz_about_superxorn_summary">HorizonDroid Founder</string>
 
-   <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings Styles</string>
-    <string name="settings_dashboard_style_summary">Change the dashboard settings UI</string>
-    <string name="settings_dashboard_style_1">AOSP Style</string>
-    <string name="settings_dashboard_style_2">Horizon Style</string>
-
 </resources> 
-  

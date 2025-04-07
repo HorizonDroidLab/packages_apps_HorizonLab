@@ -37,8 +37,6 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.android.internal.util.horizon.HorizonUtils;
-import com.android.settings.custom.preference.SystemSettingListPreference;
 import com.android.internal.logging.nano.MetricsProto;
 
 import java.util.ArrayList;
@@ -46,12 +44,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class Theme extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
-
-    private static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
-
-    private SystemSettingListPreference mSettingsDashBoardStyle;
+public class Theme extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -60,24 +53,11 @@ public class Theme extends SettingsPreferenceFragment implements
         PreferenceScreen prefSet = getPreferenceScreen();
         final Resources res = getResources();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mSettingsDashBoardStyle = (SystemSettingListPreference) findPreference(SETTINGS_DASHBOARD_STYLE);
-        mSettingsDashBoardStyle.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.HORIZON;
-    }
-
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-        final String key = preference.getKey();
-        ContentResolver resolver = getActivity().getContentResolver();
-	if (preference == mSettingsDashBoardStyle){
-            HorizonUtils.showSettingsRestartDialog(getContext());
-            return true;
-            }
-        return false;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
