@@ -17,6 +17,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_misc_title" >
 
+    <!-- GameSpace -->
+    <Preference
+        android:key="game_space"
+        android:title="@string/game_space_title"
+        android:summary="@string/game_space_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="io.chaldeaprjkt.gamespace"
+            android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+    </Preference>
+
+    <!-- Advanced_reboot -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="advanced_reboot"
         android:title="@string/global_actions_advanced_reboot_title"
